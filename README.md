@@ -13,10 +13,13 @@ time is adjusted for the Colmi P8 (and most probably for the Pinetime as well)
 that uses a different epoch than the default. If you want to run it in the
 simulator properly, change the drawotp() function (see comments there).
 
-Unzip this inside the wasp-os source root directory and add the following to
+Unzip the current release inside the wasp-os source root directory and add the following to
 wasp/boards/manifest_240x240.py:
 
-    'apps/totpgenapp.py', 'totp/__init__.py', 'totp/sha1.py', 'totp/base32.py',
+    'apps/totpgenapp.py', 
+    'totp/__init__.py', 
+    'totp/sha1.py', 
+    'totp/base32.py',
 
 Run the makesecret.py to create a TOTP key with very light encryption (CAESAR).
 If you do not wish to apply the CAESAR cipher, just add your secret to the
