@@ -6,7 +6,8 @@ you may want to remove as many apps as possible before compiling.
 The app requires a file named totp.csv in your root directory. An example file
 is included in this archive. The file is formatted simply. An account handle
 (should be short) followed by a semicolon and the TOTP secret.
-ACCOUNT;SECRETSECRETSECRET
+
+    ACCOUNT;SECRETSECRETSECRET
 
 The generated codes will be wrong in the simulator: Calculatiion of the UNIX
 time is adjusted for the Colmi P8 (and most probably for the Pinetime as well)
