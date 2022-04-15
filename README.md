@@ -25,7 +25,6 @@ Example:
     PCXKFVJZ
 
 ## Building
-Testing with the Colmi P8, the 
 
 Unzip the current release inside the wasp-os source root directory and add the following to
 wasp/boards/manifest_240x240.py:
@@ -34,6 +33,8 @@ wasp/boards/manifest_240x240.py:
     'totp/__init__.py', 
     'totp/sha1.py', 
     'totp/base32.py',
+    
+Refer to the official build guide for the remaining steps.
     
 You will likely run into compilation errors if you have many other apps frozen into the image.
 Remove unneeded apps from the manifest file in this case.
