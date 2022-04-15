@@ -26,4 +26,7 @@ Run the makesecret.py to create a TOTP key with very light encryption (CAESAR).
 If you do not wish to apply the CAESAR cipher, just add your secret to the
 totp.csv file and your pin will be 0000.
 
-https://github.com/plan5 (repo for this project not yet created)
+## Screenshots
+
+![Screenshot of PIN entry screen](https://github.com/plan5/waspos-totpgenapp/blob/main/p8totp_pin.png?raw=true)
+![Screenshot of TOTP screen](https://github.com/plan5/waspos-totpgenapp/blob/main/p8totp_totp.png?raw=true)
